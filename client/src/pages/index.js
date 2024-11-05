@@ -1,5 +1,8 @@
-export { default as HomePage } from "./HomePage";
-export { default as LoginPage } from "./LoginPage";
-export { default as Setup2FA } from "./Setup2FA";
-export { default as Verify2FA } from "./Verify2FA";
-export { default as PageNotFound } from "./PageNotFound";
+import HomePage from "./HomePage";
+import LoginPage from "./LoginPage";
+import Setup2FA from "./Setup2FA";
+import Verify2FA from "./Verify2FA";
+import PageNotFound from "./PageNotFound";
+import Error from "./Error";
+
+export { HomePage, Setup2FA, Verify2FA, PageNotFound, Error, LoginPage };
